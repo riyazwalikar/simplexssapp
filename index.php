@@ -9,19 +9,10 @@
 <div>
 <h3>Contexts:</h3>
 <ul>
-<li><a href="html.php?v=Inject Here">HTML Context</a></li>
-<li><a href="element.php?v=Inject Here">HTML Element Context</a></li>
-<li><a href="script.php?v=Inject Here">Script Context</a></li>
+<li><a href="html.php?msg=Inject Here">HTML Context</a></li>
+<li><a href="element.php?lname=Inject Here">HTML Element Context</a></li>
+<li><a href="script.php?msg=Inject Here">Script Context</a></li>
 </ul>
-</div>
-<div style="color:red">
-<?php
-error_reporting(0);
-
-if (isset($_GET['msg'])){
-	print $_GET['msg'];
-}
-?>
 </div>
 </body>
 </html>
