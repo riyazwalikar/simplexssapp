@@ -15,8 +15,8 @@ error_reporting(0);
 <script>
 var a = "apple";
 var b = "<?php
-if (isset($_REQUEST['lname'])){
-	print $_REQUEST['lname'];
+if (isset($_REQUEST['msg'])){
+	print $_REQUEST['msg'];
 }
 ?>";
 </script>
